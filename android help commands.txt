@@ -12,7 +12,7 @@ To create and start AVD
 echo no | /home/arjun/android_sdk/Android/Sdk/tools/bin/avdmanager create avd --force --name testAVD --abi google_apis/x86 --package 'system-images;android-23;google_apis;x86'
 
 
-
+cordova platform add android
 cordova prepare android
 cordova run android --stacktrace
 ionic serve
